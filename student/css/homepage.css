@@ -1,0 +1,341 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Sans-Serif,'open-sans';
+}
+body{
+  font-family: montserrat;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+nav{
+  background: transparent;
+  height: 80px;
+  width: 100%;
+}
+#logo{
+  width: 30%;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #16a085;
+  border-radius: 20px;
+  color: white;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 70px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+  .title{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform:translate(-50%,-50%);
+  }
+  .title h1{
+  	color:#fff;
+  	font-size: 70px;
+  }
+  .button{
+	position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+#text{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  position: absolute;
+	top: 47%;
+	left: 10%
+	
+}
+
+#about p{
+  text-indent: 2rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+ 
+  
+}
+
+.fa-facebook-square{
+  color: white;
+}
+
+.fa-facebook-square:hover{
+  color:#4267B2;
+  transition-delay: .2s ease-in-out;
+}
+
+.fa-instagram {
+  color: white;
+    
+  
+}
+
+.fa-instagram:hover{
+   background:  #eccc68;
+   background:  radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  transition-delay: .2s ease-in-out;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+  
+}
+
+.fa-twitter:hover{
+  color: #55ACEE;
+  transition-delay: .2s ease-in-out;
+}
+
+.fa-google{
+  color: white;
+}
+
+.fa-google:hover{
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition-delay: .2s ease-in-out;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(90, 92, 105, 0.5);
+  line-height: 46px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #5a5c69;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+@media (max-width: 952px){
+   #logo{
+    width: 15%;
+    margin: 1rem;
+  }
+  #logo2{
+    width: 40%;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  #contact{
+    font-size: 18px;
+    margin-top: 5rem;
+  }
+  #about{
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+  #_about{
+    font-size: 12px;
+  }
+  #icons{
+    font-size: 25px;
+  }
+  #copy{
+    font-size: 11px;
+    opacity: 50%;
+  }
+  
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    z-index: 1;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+    color: white;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+    }
+  #text{
+    font-size: 40px;
+  	top: 28%;
+  	left: 0%;
+    }
+  .button{
+    width: 80px;
+  	top: 67%;
+  	left: 45%;
+  	transform: translate(-50%,-50%);
+  }
+  .btn{
+  	width: 120px;
+  }
+  
+}
+
+@media (min-width: 768px){
+  #logo{
+    position: absolute;
+  	float: left;
+  	height: 100px;
+  	width: 100px;
+  	left: 6%;
+  	top: 55%;
+  	transform:translate(-50%,-50%);
+  }
+  .title{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform:translate(-50%,-50%);
+  }
+  .title h1{
+  	color:#fff;
+  	font-size: 70px;
+  }
+  .button{
+	position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+#text{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  position: absolute;
+	top: 47%;
+	left: 10%
+}
+    #logo2{
+    width: 30%;
+  }
+  #contact{
+    font-size: 25px;
+    margin-top: 5rem;
+  }
+  #about{
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+  #_about{
+    font-size: 14px;
+  }
+  #icons{
+    font-size: 35px;
+  }
+  #copy{
+    font-size: 13px;
+    opacity: 50%;
+  }
+
+}

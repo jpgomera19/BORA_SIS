@@ -1,0 +1,320 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Sans-Serif,'open-sans';
+}
+
+body{
+  background-image: url('../img/pexels-jess-bailey-designs-1764436.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h2{
+  
+  font-family: 'Koulen', cursive;
+  font-size: 50px;
+  color: #16a085;
+  text-align: center;
+}
+
+#img-logo{
+  width: 30%;
+}
+
+#container{
+  height: 1300px;
+  border-radius: 20px;
+  backdrop-filter: blurd(10px);
+  box-shadow: 5px 10px 20px rgba(0,0,0,6);
+}
+
+#input_box {
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    background: none;
+}
+#input_box input{
+    width: 240px;
+    border: none;
+    background: none;
+    outline: none;
+}
+::placeholder{
+    font-family: Tahoma;
+    background: none;
+}
+
+.fas{
+  color: black;
+}
+
+.eyes{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  
+}
+
+#hide1{
+  display: none;
+  background: transparent;
+}
+
+.fas{
+  color: black;
+}
+
+.eyes2{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+}
+#hide3{
+  display: none;
+}
+
+#course{
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 240px;
+  
+}
+
+#course:focus{
+  outline: none;
+}
+#yrlevel{
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 240px;
+  
+}
+
+#yrlevel:focus{
+  outline: none;
+}
+
+#gender{
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 240px;
+  
+}
+
+#gender:focus{
+  outline: none;
+}
+
+#nextBtn{
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  margin-top: 30px;
+  margin-right: 0rem;
+  padding-top: 5px;
+  border: 1px solid gray;
+  float: right;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: 0.4s ease;
+  font-family: Sans-Serif,'open-sans';
+  font-weight: bold;
+}
+
+#nextBtn:hover{
+  background: #63cdda;
+  width: 10rem;
+  color: black;
+  font-family: Sans-Serif,'open-sans';
+}
+
+#prevBtn{
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  margin-top: 2rem;
+  margin-right: 11rem;
+  padding-top: 5px;
+  border: 1px solid gray;
+  float: left;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: 0.4s ease;
+  font-family: Sans-Serif,'open-sans';
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#prevBtn:hover{
+  background: #63cdda;
+  width: 10rem;
+  color: black;
+  font-family: Sans-Serif,'open-sans';
+}
+
+#btn-s{
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  margin-top: -2.7rem;
+  margin-right: 0rem;
+  padding-top: 5px;
+  border: 1px solid gray;
+  float: left;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: 0.4s ease;
+  font-family: Sans-Serif,'open-sans';
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#btn-s:hover{
+  background: #cf6a87;
+  width: 10rem;
+  color: white;
+  font-family: Sans-Serif,'open-sans';
+}
+
+#message{
+  font-size: 12px;
+  margin: 3rem 9rem;
+  width: 100px;
+  height: 10px;
+  font-weight: 900;
+}
+
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: #62B6CB;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 0.5vmin solid #BEE9E8;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #CAE9FF;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+  font-size: 30px;
+}
+
+/**For desktop**/
+  @media only screen and (min-width: 768px)
+      {
+        #img-logo{
+          width: 30%;
+        }
+        #container{
+          margin-top: 5rem;
+          width: 600px;
+          height: 1350px;
+        }
+        #input_box {
+          width: 500px;
+          height: 30px;
+        }
+        #input_box input{
+          width: 440px;
+        }
+        #course{
+          width: 440px;
+        }
+        #yrlevel{
+          width: 440px;
+        }
+        #gender{
+          width: 440px;
+        }
+        #nextBtn{
+          width: 200px;
+          height: 40px;
+        }
+        #nextBtn:hover{
+          width: 200px;
+        }
+        #prevBtn{
+          width: 200px;
+        }
+        #prevBtn:hover{
+          width: 200px;
+        }
+        #btn-s{
+          width: 200px;
+          height: 40px;
+        }
+        #btn-s:hover{
+          width: 200px;
+        }
+        #message{
+          margin: -4rem 25rem;
+        }
+        .eyes2
+        {
+          position: absolute;
+        }
+  }

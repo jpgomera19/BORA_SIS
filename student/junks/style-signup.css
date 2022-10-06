@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Sans-Serif,'open-sans';
+}
+
+body{
+  background-image: url(../img/pexels-jess-bailey-designs-1764436.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  height: 100vh;
+}
+
+.box{
+    width: 600px;
+    height: 1150px;
+    margin: 300px -300px;
+    margin-bottom: 300px;
+    position: static;
+    background: white; 
+    border-radius: 20px;
+    backdrop-filter: blurd(10px);
+    box-shadow: 5px 10px 20px rgba(0,0,0,6);
+}
+
+.box h2{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Sans-Serif';
+  font-weight: bold;
+  bottom: 10px;
+}
+
+.input_box {
+    width: 500px;
+    height: 30px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    background: none;
+    position: static;
+}
+.input_box input{
+    width: 450px;
+    border: none;
+    background: none;
+    outline: none;
+    position: static;
+}
+
+
+::placeholder{
+    color: #000;
+    font-family: Tahoma;
+    background: none;
+    
+}
+
+
+.fas{
+  margin-right: 10px;
+}
+
+.eyes{
+  position: absolute;
+}
+
+#hide1{
+  display: none;
+}
+
+.fas{
+  margin-right: 10px;
+}
+
+.eyes2{
+  position: absolute;
+}
+
+#hide3{
+  display: none;
+}
+
+#course{
+  border: none;
+  background: transparent;
+  height: 30px;
+  
+}
+
+#course:focus{
+  outline: none;
+}
+#yrlevel{
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 135px;
+  
+}
+
+#yrlevel:focus{
+  outline: none;
+}
+
+#gender{
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 135px;
+  
+}
+
+#gender:focus{
+  outline: none;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.6);
+    margin-right: 15px;
+    margin-top: 30px;
+    border: none;
+    float: right;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s ease;
+    font-family: Sans-Serif,'open-sans';
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    
+    background: #2ecc71;
+    font-size: 20px;
+    color: white;
+    font-family: Sans-Serif,'open-sans';
+}
+
+.btn-s{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.6);
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-top: 5px;
+    border: none;
+    float: left;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 0.4s ease;
+    font-family: Sans-Serif,'open-sans';
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btn-s:hover{
+    
+    background: #e74c3c;
+    font-size: 20px;
+    color: white;
+    font-family: Sans-Serif,'open-sans';
+}
+
+	
